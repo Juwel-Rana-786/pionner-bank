@@ -1,0 +1,77 @@
+#transaction-area {
+    display: none;
+    padding: 0 5%;
+}
+.deposit {
+    background: slateblue;
+}
+.withdraw {
+    background: lightsalmon;
+}
+.balance {
+    background: orange;
+}
+.deposit,
+.withdraw,
+.balance {
+    padding: 25px;
+    border-radius: 15px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.deposit-area {
+    box-shadow: 5px 5px 9px gray;
+    padding: 55px;
+    border-radius: 15px;
+    margin-top: 55px;
+}
+.deposit-area h4 {
+    margin-bottom: 35px;
+}
+
+/* login css */
+
+.login {
+    max-width: 555px;
+    background: none;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 5rem 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.login > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.login > .button {
+    /* background-image: linear-gradient(#18d2ae, #0fcfec) !important; */
+    background: #21b573;
+    border: 1px solid #21b573;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem auto;
+    border-radius: 8px;
+    /* outline: none; */
+    cursor: pointer;
+    width: 93%;
+}
+.login-area {
+    background: url("../assets/img/login-page-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
